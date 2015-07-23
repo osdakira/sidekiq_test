@@ -38,6 +38,8 @@ gem 'puma'
 
 gem 'sidekiq'
 gem 'foreman'
+gem 'carrierwave'
+gem 'carrierwave_backgrounder'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
